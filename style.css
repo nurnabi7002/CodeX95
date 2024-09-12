@@ -1,0 +1,148 @@
+/* Universal Selector For select My Universal Code Things */
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Heading Start's (Navigation Bar) */
+
+body {
+  background-color: rgb(2, 6, 23);
+}
+
+.navdiv {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid white;
+  position: fixed;
+  background: transparent;
+  backdrop-filter: blur(15px);
+  
+ 
+  
+}
+
+/* Navigation Left Side */
+
+.navdivleft {
+  height: 70px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  
+}
+
+#logo{
+  height 70px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+#navh1 {
+  margin-left: 20px;
+}
+
+/*Navigation Right Side*/
+
+.navdivright {
+  height: 70px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+
+.navbutton {
+  border: 1px solid white;
+  background: transparent;
+  padding: 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 11px blue;
+}
+
+/* Navigation And Heading Ends*/
+/* Main Body Starts*/
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: url("hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.sdp {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.summary {
+  height: 260px;
+  width: 95%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.s1 {
+  background: linear-gradient(to right, #00bfff, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/*Identification Form Start's*/
+
+.idf {
+  height: 520px;
+  width: 100%;
+}
+
+#MyselfH {
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+#mypicset {
+  height: 190px;
+  margin-left: 25%;
+}
+
+h3 {
+  margin-left: 12%;
+  margin-top: 4%;
+  background: linear-gradient(to right, #00bfff, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Footer Start's*/
+
+h2 {
+  margin-left: 5%;
+}
+
+.ftr {
+  margin-left: 10%;
+}
+
+.ftrdiv {
+  height 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
